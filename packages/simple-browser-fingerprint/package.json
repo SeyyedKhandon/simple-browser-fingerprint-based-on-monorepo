@@ -1,0 +1,31 @@
+{
+  "name": "simple-browser-fingerprint-based-on-monorepo",
+  "description": "My Math Library",
+  "version": "0.0.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc",
+    "test": "jest --config ../../jestconfig.json"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeyyedKhandon/simple-browser-fingerprint-based-on-monorepo.git"
+  },
+  "author": "SeyyedMahdi hassanpour",
+  "bugs": {
+    "url": "https://github.com/SeyyedKhandon/simple-browser-fingerprint-based-on-monorepo/issues"
+  },
+  "homepage": "https://github.com/SeyyedKhandon/simple-browser-fingerprint-based-on-monorepo#readme",
+  "keywords": [
+    "simple-browser-fingerprint-based-on-monorepo"
+  ]
+}
